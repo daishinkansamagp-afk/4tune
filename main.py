@@ -5,7 +5,7 @@ from aiohttp import web  # <-- For uptime ping
 import asyncio
 
 # ---------- CONFIG ----------
-BOT_TOKEN = os.getenv("DISCORD_TOKEN")  # Make sure this is set in Render environment variables
+BOT_TOKEN = os.getenv("MTQ4ODkwMjQyOTcwODY1MjU1NA.G46OWd.eNgZE42SPAhtCWXWVOr7sSnwoHDqYv7SK2Plto")  # Make sure this is set in Render environment variables
 WEB_PORT = int(os.getenv("PORT", 10000))  # Render automatically sets PORT
 # ----------------------------
 
